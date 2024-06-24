@@ -12,8 +12,9 @@ var swiper = new Swiper('.main_swiper', {
         disableOnInteraction: false},
     slidesPerView: 1.5,
       breakpoints: { //반응형 width 
+        500: { slidesPerView: 1, }, 
         640: { slidesPerView: 1, }, 
-        768: { slidesPerView: 1, }, 
+        800: { slidesPerView: 1, }, 
         1024: { slidesPerView: 1.2, }, } 
 })
         
